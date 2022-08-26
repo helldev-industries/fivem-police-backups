@@ -1,0 +1,3 @@
+TenThirteenSharedConfig = {
+    sound = 'panic2'
+}
