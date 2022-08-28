@@ -1,4 +1,5 @@
 local ESX = exports['es_extended']:getSharedObject();
+local Phantum = exports['phantum']:getSharedObject();
 local LastBackup = nil;
 local PanicSounds = true;
 
@@ -167,7 +168,7 @@ RegisterNetEvent('phantum:client:sendBackup', function(text, coords, badge, aler
 
     local CurrentBlip = AddBlipForCoord(coords.x, coords.y, coords.z)
     SetBlipSprite(CurrentBlip, 480)
-    SetBlipDisplay(info.blip, 2)
+    SetBlipDisplay(CurrentBlip, 2)
     SetBlipScale(CurrentBlip, 0.9)
     SetBlipColour(CurrentBlip, 1)
     SetBlipAsShortRange(CurrentBlip, true)

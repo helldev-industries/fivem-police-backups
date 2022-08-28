@@ -5,11 +5,11 @@ author 'phant'
 version '1.0.0'
 
 client_scripts {
-    'src/**/cl_*.lua',
+    'cl_*.lua',
 }
 server_scripts {
-    'src/**/sv_*.lua',
+    'sv_*.lua',
 }
 shared_scripts {
-    'src/**/sh_*.lua',
+    'sh_*.lua',
 }

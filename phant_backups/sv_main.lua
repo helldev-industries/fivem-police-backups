@@ -1,5 +1,5 @@
 local ESX = exports['es_extended']:getSharedObject();
-
+local Phantum = exports['phantum']:getSharedObject();
 
 ESX.RegisterServerCallback('phantum:server:checkJob', function(source, cb)
     local xPlayer = ESX.GetPlayerFromId(source);
